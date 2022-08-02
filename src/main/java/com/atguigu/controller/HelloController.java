@@ -21,6 +21,7 @@ public class HelloController {
     @RequestMapping(path = "/hello")
     public String sayHello() {
         System.out.println(dataSourceProperties);
+
         return  "Hello Spring Boot";
     }
 }
